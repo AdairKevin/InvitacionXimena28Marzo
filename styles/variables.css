@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+:root {
+  --bg-blanco: #fef5f3;
+  --bg-color-1: #d4a5a0;
+  --bg-color-2: #c18f8a;
+  --bg-color-3: #a76170;
+  --bg-color-4: rgb(180, 110, 132);
+
+  --txt-body: #3d2a28;
+  --white: #ffffff;
+  --gray: #c9b0ad;
+
+  --bg-verde-opacity-50: c18f8a;
+
+  --bg-section-light: #fef9f7;
+  --bg-section-dark: #2b2b2b;
+  --bg-footer: #c99d98;
+
+  --bg-gradient: linear-gradient(
+    131deg,
+    #f5e5e1 -3.63%,
+    #d4a5a0 60.5%,
+    #c99d98 100.94%
+  );
+
+  --font-titulos: "Playfair Display", serif;
+  --font-subtitulos: "Great Vibes", cursive;
+  --font-texto: "PT Serif", serif;
+
+  --img-photo-home: url(../img/Photo-home.webp);
+  --img-F1: url(../img/c1.jpeg);
+  --img-F2: url(../img/c2.jpeg);
+  --img-F3: url(../img/c3.jpeg);
+  --img-F4: url(../img/portada.jpeg);
+  --img-F5: url(../img/c2.jpeg);
+
+  --img-overlay-stain-1: url(../img/stain-1.svg);
+  --img-overlay-stain-2: url(../img/stain-2.svg);
+
+  --img-overlay-points-1: url(../img/points-2.svg);
+  --img-overlay-points-2: url(../img/points-2.svg);
+  --img-overlay-leaf-1: url(../assets/img/);
+  --img-overlay-leaf-2: url(../img/leaf-2.svg);
+  --img-overlay-leaf-3: url(../img/leaf-3.svg);
+}

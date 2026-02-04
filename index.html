@@ -1,0 +1,232 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invitacion Ximena</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+  </head>
+
+  <body class="center">
+    <div class="content">
+      <section class="section-home">
+        <div class="home-content">
+          <img class="home-img" alt="photo" src="./assets/img/portada.jpg" />
+        </div>
+      </section>
+
+      <section class="informacion-principal">
+        <div class="titulo">
+          <h1>Mis XV</h1>
+          <h2>Ximena Alisse</h2>
+          <p class="frase">
+              Hoy mi corazón se llena de gratitud al mirar hacia atrás y ver cada sonrisa, cada enseñanza y cada abrazo que me ha acompañado en este camino.
+              Doy gracias a dios por la vida. A mis padres por su amor infinito. A familiares y amigos por ser parte de mi historia...          </p>
+        </div>
+      </section>
+
+      <section class="musica">
+        <div class="music-card">
+          <div class="album-art"></div>
+          <div class="song-title">Mi Canción</div>
+          <div class="artist-name">Ma belle Evangeline</div>
+
+          <button class="play-button" id="playPauseBtn">▶</button>
+
+          <div class="progress-container">
+            <div class="progress" id="progressBar"></div>
+          </div>
+
+          <audio
+            id="audioPlayer"
+            src="./assets/music/Ma Belle Evangeline - Letra Latino.mp3"
+          ></audio>
+          <!-- Cambia por tu archivo mp3 -->
+        </div>
+      </section>
+
+      <section class="section-info">
+        <div class="overlay-section-info">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-info">
+          <div class="info-primary">
+            <h1>Ximena Alisse</h1>
+            <p>
+              Con amor, la bendición de Dios y el apoyo de mi familia, celebro
+              este momento especial contigo.
+            </p>
+          </div>
+          <div class="info-secundary">
+            <div class="info-content">
+              <b>Mis Padres</b>
+              <ul>
+                <li>Leonardo López </li>
+                <li>Carmen Torres </li>
+              </ul>
+            </div>
+            <div class="info-content">
+              <b>Mis Padrinos</b>
+              <ul>
+                <li>Antonio Enrique </li>
+                <li>Virginia Ávila</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-date">
+            <div class="date-info center">
+              <img width="200" src="./assets/img/separador.png" alt="rings" />
+              <p class="date-text">
+                Estamos a pocos momentos de celebrar juntos esta gran alegría.
+              </p>
+            </div>
+            <div class="date-box">
+              <h2>SÁBADO</h2>
+              <ul class="center">
+                <li>Marzo</li>
+                <li>28</li>
+                <li>16:00</li>
+              </ul>
+            </div>
+            <ul class="date-time">
+              <li>
+                <div class="time_number" id="dias"></div>
+                <div class="time_txt">Días</div>
+              </li>
+              <li>
+                <div class="time_number" id="horas"></div>
+                <div class="time_txt">Horas</div>
+              </li>
+              <li>
+                <div class="time_number" id="minutos"></div>
+                <div class="time_txt">Minutos</div>
+              </li>
+              <li>
+                <div class="time_number" id="segundos"></div>
+                <div class="time_txt">Segundos</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-place">
+        <div class="overlay-section-place">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-place">
+          <div class="place-info center">
+            <img
+              width="75"
+              src="./assets/icons/church.svg"
+              alt="church"
+              fill="#000000"
+            />
+            <div class="place-txt">
+              <h2>Ceremonia</h2>
+              <p>
+                <b>4:00 PM</b>
+                Parroquia de Nuestra Señora de Juquila, Mochica entre Acoma,
+                Americas ll
+              </p>
+            </div>
+          </div>
+          <a
+            class="place-btn"
+            href="https://maps.app.goo.gl/ACihSmXbYdHw2qLo6"
+            target="_blank"
+          >
+            VER UBICACIÓN
+          </a>
+        </div>
+      </section>
+
+      <section class="section-place-salon">
+        <div class="overlay-section-place">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-place-salon">
+          <div class="place-info center">
+            <img width="120" src="./assets/icons/bola.png" alt="disco" />
+            <div class="place-txt fiesta">
+              <h2>Fiesta</h2>
+              <p>Sur 17 Mz07 Lt48, Colonia San Miguel Xico 3ra Secc</p>
+            </div>
+          </div>
+          <a
+            class="place-btn"
+            href="https://maps.app.goo.gl/ZJ74XsDC5PcpkfQm8"
+            target="_blank"
+          >
+            VER UBICACIÓN
+          </a>
+        </div>
+      </section>
+
+      <section class="section-galeria">
+        <section class="section-info-adicional">
+          <div class="info-clothes">
+            <img height="70" src="./assets/icons/Clothes.svg" alt="clothes" />
+            <div class="clothes-txt">
+              <h2>Vestimenta</h2>
+              <p>
+                La vestimenta es libre, ¡ven con lo que más te guste! Solo
+                recuerda traer un cambio de ropa extra y todas las ganas para
+                divertirte al máximo.
+              </p>
+            </div>
+          </div>
+          <div class="info-separator">
+            <img width="200" src="./assets/img/separador.png" alt="separator" />
+          </div>
+          <div class="info-envelope">
+            <img width="70" src="./assets/icons/envelope.svg" alt="envelope" />
+            <div class="envelope-txt"></div>
+            <h2>Mesa de regalos</h2>
+            <p>
+              Tu presencia es el mejor regalo, pero si deseas acompañarla con un
+              detalle, será muy apreciado.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="section-message">
+        <div class="overlay-section-message">
+          <span></span>
+          <span></span>
+        </div>
+        <div class="box-message">
+          <p>
+            Los mejores momentos de la vida <br />
+            merecen ser compartidos
+          </p>
+          <b>¡Gracias por acompañarnos!</b>
+          <button class="confirmar">
+            <a href="#"> Confirmar asistencia </a>
+          </button>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        Design by
+        <a
+          href="https://www.facebook.com/profile.php?id=61568997140138"
+          target="_blank"
+          >Mirai</a
+        >
+        @2025
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
