@@ -63,9 +63,9 @@
 
 .album-art {
   width: 100%;
-  height: 150px;
-  background: url("../assets/img/portada.jpg") center/cover no-repeat;
-  background-position: top;
+  height: 190px;
+  background: url("../assets/img/fotoMusica.jpeg") center/cover no-repeat;
+  background-position: center;
   border-radius: 15px;
   margin-bottom: 15px;
 }
